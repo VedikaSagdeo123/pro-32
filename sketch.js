@@ -33,15 +33,15 @@ function draw(){
     // write code to display time in correct format here
     if(hour===00){
         textSize(30);
-        text("12 am",100,50);
+        text("12 AM",100,50);
     }
     if(hour>=1 && hour<=12){
         textSize(30);
-        text(hour+"am",100,50);
+        text(hour+"AM",100,50);
     }
     if(hour>=13 && hour<=23){
         textSize(30);
-        text("time: "+hour%12+" pm",100,50);
+        text("Time: "+hour%12+" PM",100,50);
     }
 
 
